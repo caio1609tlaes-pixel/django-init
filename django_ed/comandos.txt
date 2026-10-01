@@ -1,0 +1,16 @@
+criar a venv 
+** python -m venv .venv
+
+ativar a venv
+** ./.venv/Scripts/Activate
+ou "Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned"
+
+criar a pasta app
+**django-admin startproject app .
+
+criar super usuário
+**python manage.py createsuper user
+
+run
+**python manage.py runserver
+
